@@ -7,8 +7,16 @@
 }
 
 /* Shared Style */
+.secoundery-bg {
+  background-color: #FFF8F3;
+}
+
 .text-primary {
   color: #FD6E0A;
+}
+
+.dark-1 {
+  color: #181818;
 }
 
 .dark-2 {
@@ -32,6 +40,16 @@
 
 .btn-primary:hover {
   background-color: #e06105;
+}
+
+.section-title {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.section-description {
+  color: #757575;
+  font-size: 18px;
 }
 
 /* Header Area */
@@ -102,4 +120,36 @@ nav ul li a {
   width: 580px;
   /* max-width: 56%; */
   /* Might Remove Later */
+}
+
+/* Main Area */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* About Area */
+.about {
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+  margin-top: 130px;
+}
+
+.about-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.item-title {
+  margin-bottom: 5px;
+  color: #757575;
+}
+
+.item-description {
+  margin-top: 0;
+  padding-top: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #474747;
 }
