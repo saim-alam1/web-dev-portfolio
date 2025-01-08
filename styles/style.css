@@ -15,6 +15,10 @@
   color: #FD6E0A;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .dark-1 {
   color: #181818;
 }
@@ -128,12 +132,16 @@ main {
   margin: 0 auto;
 }
 
+main section {
+  margin: 130px 0;
+}
+
 /* About Area */
 .about {
   border-radius: 10px;
   padding: 130px 150px;
   text-align: center;
-  margin-top: 130px;
+  /* margin-top: 130px; */
 }
 
 .about-items {
@@ -152,4 +160,28 @@ main {
   font-size: 18px;
   font-weight: 600;
   color: #474747;
+}
+
+/* Skill Area */
+
+.skills-container {
+  display: flex;
+  gap: 25px;
+}
+
+.skill {
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 6px 50px rgba(0, 0, 0, 0.06);
+}
+
+.skill-title {
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.skill-description {
+  font-size: 16px;
+  color: rgba(117, 117, 117, 1);
 }
